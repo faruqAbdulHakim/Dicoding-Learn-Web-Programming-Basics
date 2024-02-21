@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Faruq Abdul Hakim" />
+    <meta name="color-scheme" content="only light" />
+    <title>Temukan keindahan tersembunyi di Pantai Papuma</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css-reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1 class="title">Pantai Papuma</h1>
+      </div>
+      <input id="menu-option" class="menu-checkbox" type="checkbox" />
+      <label for="menu-option" class="menu-btn">
+        <img src="./assets/ic-menu.svg" alt="Menu" />
+      </label>
+      <label for="menu-option" class="close-menu-btn">
+        <img src="./assets/ic-x.svg" alt="Close Menu" />
+      </label>
+      <nav>
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#about">Tentang</a></li>
+          <li class="nav-item"><a href="#activities">Aktivitas</a></li>
+          <li class="nav-item"><a href="#facilities">Fasilitas</a></li>
+          <li class="nav-item"><a href="#gallery">Galeri</a></li>
+          <li class="nav-item"><a href="#location">Lokasi</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="hero">
+        <img src="./assets/papuma.jpg" alt="Papuma" />
+        <p>Pantai Papuma</p>
+      </div>
+
+      <article class="main-article">
+        <section>
+          <h2 id="about" class="article-title">
+            Selamat Datang di Pantai Papuma
+          </h2>
+          <p class="article-paragraph">
+            Pantai Papuma adalah salah satu pantai terindah di Jawa Timur yang
+            berlokasi di Kabupaten Jember. Pasir putih yang lembut dan air laut
+            yang jernih membuat Pantai Papuma menjadi destinasi wisata andalan
+            bagi mereka yang ingin relaksasi dan berliburan. Tidak hanya itu,
+            pantai ini juga menyuguhkan pemandangan matahari terbit dan terbenam
+            yang sangat indah.
+          </p>
+        </section>
+
+        <section>
+          <h3 id="activities" class="article-subtitle">Aktivitas</h3>
+          <div class="boxes">
+            <div class="box">
+              <img class="box-icon" src="./assets/ic-sun.svg" alt="Sun" />
+              <h4 class="box-title">Berjemur</h4>
+              <p class="box-text">Nikmati sinar matahari dan udara segar</p>
+            </div>
+            <div class="box">
+              <img class="box-icon" src="./assets/ic-wave.svg" alt="Wave" />
+              <h4 class="box-title">Selancar</h4>
+              <p class="box-text">Coba olahraga air seru yang satu ini</p>
+            </div>
+            <div class="box">
+              <img class="box-icon" src="./assets/ic-fish.svg" alt="Fish" />
+              <h4 class="box-title">Memancing</h4>
+              <p class="box-text">
+                Rasakan keseruannya dan dapatkan ikan segar
+              </p>
+            </div>
+            <div class="box">
+              <img class="box-icon" src="./assets/ic-boat.svg" alt="Boat" />
+              <h4 class="box-title">Perahu</h4>
+              <p class="box-text">Nikmati sinar matahari dan udara segar</p>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h3 id="facilities" class="article-subtitle">Fasilitas</h3>
+          <div class="boxes">
+            <div class="box">
+              <img
+                class="box-icon"
+                src="./assets/ic-umbrella.svg"
+                alt="Umbrella"
+              />
+              <h4 class="box-title">Payung pantai</h4>
+              <p class="box-text">Nikmati pemandangan di bawah payung pantai</p>
+            </div>
+            <div class="box">
+              <img class="box-icon" src="./assets/ic-truck.svg" alt="Truck" />
+              <h4 class="box-title">Gerai makanan</h4>
+              <p class="box-text">Tersedia makanan dan minuman</p>
+            </div>
+            <div class="box">
+              <img class="box-icon" src="./assets/ic-toilet.svg" alt="Toilet" />
+              <h4 class="box-title">Toilet umum</h4>
+              <p class="box-text">Tidak perlu khawatir mencari toilet</p>
+            </div>
+            <div class="box">
+              <img
+                class="box-icon"
+                src="./assets/ic-building.svg"
+                alt="Building"
+              />
+              <h4 class="box-title">Tempat parkir</h4>
+              <p class="box-text">
+                Tempat parkir yang luas untuk kendaraan Anda
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h3 id="gallery" class="article-subtitle">Galeri</h3>
+          <div class="slider">
+            <ul class="slider-container"></ul>
+          </div>
+        </section>
+      </article>
+
+      <aside>
+        <h3 id="location" class="article-subtitle">Lokasi</h3>
+        <a
+          class="map-link"
+          href="https://maps.app.goo.gl/Y5utsHYp7jHAMCXG9"
+          target="_blank"
+        >
+          <img src="./assets/map.png" alt="Map" />
+        </a>
+      </aside>
+    </main>
+
+    <footer>
+      <ul class="contacts">
+        <li class="contact-item">
+          <a href="#"><img src="./assets/ic-facebook.svg" alt="facebook" /></a>
+        </li>
+        <li class="contact-item">
+          <a href="#"
+            ><img src="./assets/ic-instagram.svg" alt="instagram"
+          /></a>
+        </li>
+        <li class="contact-item">
+          <a href="#"><img src="./assets/ic-twitter.svg" alt="twitter" /></a>
+        </li>
+      </ul>
+      <p class="copyright">&copy; 2024 Pantai Papuma</p>
+    </footer>
+  </body>
+</html>
